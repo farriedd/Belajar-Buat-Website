@@ -1,0 +1,349 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.logo a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+nav {
+margin-top: 0px;
+margin-right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+    text-decoration: none;
+}
+
+
+.login {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.login-button {
+    border: none;
+    padding: 1px 9px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #402e46;
+    color: white;
+    transition: transform 0.5s;
+    position: sticky;
+}
+
+
+.login-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px rgba(43, 40, 40, 0.3);
+}
+
+.rectangle {
+    position: sticky;
+    max-width: 97%;
+    height: 430px;
+    border-radius: 20px;
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.gambar {
+    position: sticky;
+    top: 90%;
+    left: 25%;
+    transform: translate(-50%, -30%);
+    max-width: 70%;
+    max-height: 70%;
+    margin-top: 13%;
+}
+
+.rectangle h1 {
+    position: sticky;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-top: -32%;
+    margin-left: 48.4%;
+
+}
+
+.rectangle p {
+    position: sticky;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-left: 48.5%;
+    margin-top: -1.5%
+}
+
+.get-early-accsess {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #402e46;
+    font-weight: 700;
+    background-color: white;
+    font-size: 13px;
+    transition: transform 0.4s;
+    position: sticky;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 48.2%;
+    margin-top: 0.5%;
+}
+
+.get-early-accsess:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(43, 40, 40, 0.3);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(199, 43, 178);
+    font-size: 14px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 1%;
+}
+
+.rectangle2 {
+    position: sticky;
+    max-width: 20%;
+    max-height: 200px;
+    border-radius: 20px;
+    background-color: #f7f5f5;
+    margin: 0 auto;
+    margin-top: -1%;
+    transition: transform 0.4s;
+    margin-right: 5% ;
+}
+
+.rectangle2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px rgba(43, 40, 40, 0.3);
+}
+
+.rectangle2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-top: -1%;
+}
+
+.learn1 {
+    max-width: 80%;
+    max-height: 60%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.rectangle3 {
+    position: sticky;
+    max-width: 20%;
+    max-height: 200px;
+    border-radius: 20px;
+    background-color: #f7f5f5;
+    margin: 0 auto;
+    margin-top: -1%;
+    transition: transform 0.4s;
+}
+
+.rectangle3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px rgba(43, 40, 40, 0.3);
+}
+
+.rectangle3 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-top: -1%;
+}
+
+.learn2 {
+    max-width: 80%;
+    max-height: 60%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.rectangle4 {
+    position: sticky;
+    max-width: 20%;
+    max-height: 200px;
+    border-radius: 20px;
+    background-color: #f7f5f5;
+    margin: 0 auto;
+    margin-top: -1%;
+    transition: transform 0.4s;
+    margin-left: 5%;
+}
+
+.rectangle4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px rgba(43, 40, 40, 0.3);
+}
+
+.rectangle4 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-top: -1%;
+}
+
+.learn3 {
+    max-width: 80%;
+    max-height: 60%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.github {
+    position: fixed;
+    max-width: 3%;
+    max-height: 5.7%;
+    position: absolute;
+    margin-left: 30%;
+}
+
+
+.facebook {
+    position: fixed;
+    max-width: 3%;
+    max-height: 5.7%;
+    position: absolute;
+    margin-left: -1.4%;
+}
+
+.cisco {
+    position: fixed;
+    max-width: 3%;
+    max-height: 5.7%;
+    position: absolute;
+    margin-left: -34%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+h3 {
+    display: none;
+}
+
+.hpview {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .gambar {
+        display: none;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    body {
+        background-color: #f7f7f7;
+    }
+
+    li {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 1%;
+    }
+
+    .login-button {
+        margin-right: 1rem;
+    }
+
+    h3 {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 1%;
+    }
+
+    .hpview {
+        display: block;
+        text-align: center;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
+
+    h2 {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 1%;
+    }
+
+    .rectangle2 {
+        display: none;
+    }
+
+    .rectangle3 {
+        display: none;
+    }
+
+    .rectangle4 {
+        display: none;
+    }
+}
